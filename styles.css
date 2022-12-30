@@ -33,3 +33,32 @@ p{
 .section-m1{
 margin: 40px 0;
 }
+/* header styling */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style: none;
+    padding:0 15px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight:600 ;
+    cursor: pointer;
+} 
+#navbar li a:hover{
+    color: coral;
+    transition: .4s ease-in-out;
+}
